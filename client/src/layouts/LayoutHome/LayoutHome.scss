@@ -1,0 +1,20 @@
+.layout-home{
+    &__header{
+        height: 65px;
+    }
+
+    &__content{
+        background-image: url('../../assets/img/jpg/background-v1.jpg');
+        height: calc(100vh - 95px);
+    }
+
+    &__footer{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 100%;
+        bottom: 0;
+    }
+}
